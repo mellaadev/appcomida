@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Delivery | by Fran Mella</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    
+    <header class="header contenedor">
+        <div class="header__logo">
+            <img src="build/img/logo.svg" alt="Logo Delivery">
+        </div>
+
+        <nav class="navegacion">
+            <a href="404.html" class="navegacion__link">Iniciar Sesión</a>
+            <a href="404.html" class="navegacion__link">Crear Cuenta</a>
+            <a href="404.html" class="navegacion__link  navegacion__link--registrar">Registrar Restaurante</a>
+        </nav>
+    </header>
+
+    <section class="contenedor formulario">
+        <div class="formulario__grid">
+            <div class="formulario__contenido">
+                <h2>Encuentra y pide comida de tu restaurante favorito</h2>
+                <form class="formulario__buscar">
+                    <div class="formulario__campo">
+                        <label for="nombre" class="formulario__label">Restaurante</label>
+                        <input type="text" class="formulario__input" id="nombre" placeholder="Goiko Grill">
+                    </div>
+
+                    <div class="formulario__campo">
+                        <label for="plato" class="formulario__label">Plato</label>
+                        <input type="text" class="formulario__input" id="plato" placeholder="Hamburguesa, Pizza, Ensalada, ...">
+                    </div>
+
+                    <input type="submit" class="formulario__submit" value="Buscar">
+                </form>
+            </div>
+
+            <div class="formulario__imagen">
+                <img src="build/img/dibujo_repartidor.svg" alt="Imagen Repartidor">
+            </div>
+        </div>
+    </section>
+
+    <section class="pasos">
+        <img src="build/img/wave.svg" alt="Imagen Wave" class="pasos__wave">
+
+        <div class="pasos__contenido">
+            <h2 class="pasos__heading">¿Cómo funciona? <span class="pasos__heading--descripcion">tan fácil como 1,2 y 3</span></h2>
+
+            <div class="pasos__grid contenedor">
+                <div class="pasos__paso">
+                    <img src="build/img/webp/paso_1.webp" alt="Imagen Paso App" class="pasos__imagen">
+                </div>
+
+                <div class="pasos__paso">
+                    <img src="build/img/webp/paso_2.webp" alt="Imagen Paso App" class="pasos__imagen">
+                </div>
+
+                <div class="pasos__paso">
+                    <img src="build/img/webp/paso_3.webp" alt="Imagen Paso App" class="pasos__imagen">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor testimoniales">
+        <h2 class="testimoniales__heading">Testimonios</h2>
+
+        <div class="testimoniales__grid">
+            <div class="testimonial">
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/webp/testimonial1.webp" alt="Imagen Testimonio Perfil">
+                    </div>
+
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Juan Perez</p>
+                        <img class="testimonial__calificacion" src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+                    </div>
+                </header>
+
+                <blockquote class="testimonial__texto">
+                    Una excelente app, puedo seleccionar de una gran cantidad de opciones y pagar con tarjeta o efectivo según me convenga.
+                </blockquote>
+            </div> <!-- .testimonial -->
+
+            <div class="testimonial">
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/webp/testimonial5.webp" alt="Imagen Testimonio Perfil">
+                    </div>
+
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Itzel Cruz</p>
+                        <img class="testimonial__calificacion" src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+                    </div>
+                </header>
+
+                <blockquote class="testimonial__texto">
+                    Una excelente app, puedo seleccionar una gran cantidad de opciones.
+                </blockquote>
+            </div> <!-- .testimonial -->
+
+            <div class="testimonial">
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/webp/testimonial4.webp" alt="Imagen Testimonio Perfil">
+                    </div>
+
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Rocío Rodriguez</p>
+                        <img class="testimonial__calificacion" src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+                    </div>
+                </header>
+
+                <blockquote class="testimonial__texto">
+                    Una excelente app, puedo seleccionar de una gran cantidad de opciones y pagar con tarjeta o efectivo según me convenga. La recomendaría usar a menudo.
+                </blockquote>
+            </div> <!-- .testimonial -->
+
+            <div class="testimonial">
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/webp/testimonial2.webp" alt="Imagen Testimonio Perfil">
+                    </div>
+
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Cynthia V</p>
+                        <img class="testimonial__calificacion" src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+                    </div>
+                </header>
+
+                <blockquote class="testimonial__texto">
+                    Una excelente app, puedo seleccionar de una gran cantidad de opciones y pagar con tarjeta o efectivo según me convenga.
+                </blockquote>
+            </div> <!-- .testimonial -->
+
+            <div class="testimonial">
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/webp/testimonial3.webp" alt="Imagen Testimonio Perfil">
+                    </div>
+
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Fran Mella</p>
+                        <img class="testimonial__calificacion" src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+                    </div>
+                </header>
+
+                <blockquote class="testimonial__texto">
+                    Una excelente app, puedo seleccionar de una gran cantidad de opciones y pagar con tarjeta o efectivo según me convenga.
+                </blockquote>
+            </div> <!-- .testimonial -->
+        </div>
+    </section>
+
+    <main class="favoritos">
+        <h2 class="favoritos__heading">Restaurantes Favoritos</h2>
+
+        <div class="favoritos__grid contenedor">
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/webp/logo_ensaladas.webp" alt="Logo Restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+
+                        <h3 class="favorito__nombre">Green Ensaladas</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet incidunt id dignissimos, quos fugit odio et magni voluptatum officiis, quaerat error rem in eum ipsam architecto cumque aliquid qui totam.</p>
+                    </div>
+                </div>
+            </div> <!-- .favorito -->
+
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/webp/logo_ensaladas.webp" alt="Logo Restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+
+                        <h3 class="favorito__nombre">Green Ensaladas</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet incidunt id dignissimos, quos fugit odio et magni voluptatum officiis, quaerat error rem in eum ipsam architecto cumque aliquid qui totam.</p>
+                    </div>
+                </div>
+            </div> <!-- .favorito -->
+
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/webp/logo_ensaladas.webp" alt="Logo Restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+
+                        <h3 class="favorito__nombre">Green Ensaladas</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet incidunt id dignissimos, quos fugit odio et magni voluptatum officiis, quaerat error rem in eum ipsam architecto cumque aliquid qui totam.</p>
+                    </div>
+                </div>
+            </div> <!-- .favorito -->
+
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/webp/logo_ensaladas.webp" alt="Logo Restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+
+                        <h3 class="favorito__nombre">Green Ensaladas</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet incidunt id dignissimos, quos fugit odio et magni voluptatum officiis, quaerat error rem in eum ipsam architecto cumque aliquid qui totam.</p>
+                    </div>
+                </div>
+            </div> <!-- .favorito -->
+
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/webp/logo_ensaladas.webp" alt="Logo Restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+
+                        <h3 class="favorito__nombre">Green Ensaladas</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet incidunt id dignissimos, quos fugit odio et magni voluptatum officiis, quaerat error rem in eum ipsam architecto cumque aliquid qui totam.</p>
+                    </div>
+                </div>
+            </div> <!-- .favorito -->
+
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/webp/logo_ensaladas.webp" alt="Logo Restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+
+                        <h3 class="favorito__nombre">Green Ensaladas</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet incidunt id dignissimos, quos fugit odio et magni voluptatum officiis, quaerat error rem in eum ipsam architecto cumque aliquid qui totam.</p>
+                    </div>
+                </div>
+            </div> <!-- .favorito -->
+
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/webp/logo_ensaladas.webp" alt="Logo Restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+
+                        <h3 class="favorito__nombre">Green Ensaladas</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet incidunt id dignissimos, quos fugit odio et magni voluptatum officiis, quaerat error rem in eum ipsam architecto cumque aliquid qui totam.</p>
+                    </div>
+                </div>
+            </div> <!-- .favorito -->
+
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/webp/logo_ensaladas.webp" alt="Logo Restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+
+                        <h3 class="favorito__nombre">Green Ensaladas</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet incidunt id dignissimos, quos fugit odio et magni voluptatum officiis, quaerat error rem in eum ipsam architecto cumque aliquid qui totam.</p>
+                    </div>
+                </div>
+            </div> <!-- .favorito -->
+
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/webp/logo_ensaladas.webp" alt="Logo Restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+
+                        <h3 class="favorito__nombre">Green Ensaladas</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet incidunt id dignissimos, quos fugit odio et magni voluptatum officiis, quaerat error rem in eum ipsam architecto cumque aliquid qui totam.</p>
+                    </div>
+                </div>
+            </div> <!-- .favorito -->
+
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__imagen">
+                        <img src="build/img/webp/logo_ensaladas.webp" alt="Logo Restaurante">
+                    </div>
+
+                    <div class="favorito__contenido">
+                        <img src="build/img/webp/estrellas.webp" alt="Imagen Calificacion">
+
+                        <h3 class="favorito__nombre">Green Ensaladas</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet incidunt id dignissimos, quos fugit odio et magni voluptatum officiis, quaerat error rem in eum ipsam architecto cumque aliquid qui totam.</p>
+                    </div>
+                </div>
+            </div> <!-- .favorito -->
+        </div>
+    </main>
+
+    <section class="ganadinero">
+        <h2 class="ganadinero__heading">Gana dinero con AppComida</h2>
+
+        <div class="ganadinero__grid contenedor">
+            <div class="ganadinero__imagen">
+                <img src="build/img/webp/repartidor.webp" alt="Imagen Repartidor">
+            </div>
+
+            <div class="ganadinero__info">
+                <p class="ganadinero__descripcion">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque facere autem doloremque commodi eius similique laborum illo vel natus dolore architecto facilis illum, ab quaerat distinctio. Saepe iusto officia libero?
+                </p>
+                <p class="ganadinero__descripcion">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque facere autem doloremque commodi eius similique laborum illo vel natus dolore architecto facilis illum, ab quaerat distinctio. Saepe iusto officia libero?
+                </p>
+
+                <a href="404.html" class="ganadinero__boton">Más Información</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="app">
+        <div class="app__grid contenedor">
+            <div class="app__imagen">
+                <img src="build/img/webp/app.webp" alt="Imagen App">
+            </div>
+
+            <div class="tiendas">
+                <h3 class="tiendas__heading">Descarga la App</h3>
+                <p class="tiendas__texto">Disponible para Android y iOS</p>
+
+                <div class="tiendas__grid">
+                    <a href="404.html" class="tiendas__enlace">
+                        <img src="build/img/tienda-apple.svg" alt="App Store">
+                    </a>
+
+                    <a href="404.html" class="tiendas__enlace">
+                        <img src="build/img/tienda-android.svg" alt="Play Store">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__grid contenedor">
+            <div class="footer__widget">
+                <h3 class="footer__heading">Nosotros</h3>
+                <p class="footer__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi perferendis autem, a magnam quis quisquam incidunt modi amet. Incidunt possimus nisi porro recusandae atque dolorem soluta ducimus, quod sapiente facilis.</p>
+            </div>
+
+            <div class="footer__widget">
+                <h3 class="footer__heading">Navegación</h3>
+                <nav class="footer__nav">
+                    <a href="404.html" class="footer__link">Enlace 1</a>
+                    <a href="404.html" class="footer__link">Enlace 2</a>
+                    <a href="404.html" class="footer__link">Enlace 3</a>
+                    <a href="404.html" class="footer__link">Enlace 4</a>
+                    <a href="404.html" class="footer__link">Enlace 5</a>
+                    <a href="404.html" class="footer__link">Enlace 6</a>
+                </nav>
+            </div>
+
+            <div class="footer__widget">
+                <h3 class="footer__heading">Contacto</h3>
+                <p class="footer__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi perferendis autem, a magnam quis quisquam incidunt modi amet. Incidunt possimus nisi porro recusandae atque dolorem soluta ducimus, quod sapiente facilis.</p>
+            </div>
+        </div>
+
+        <p class="footer__copy">All Rights Reserver. AppComida &copy;</p>
+    </footer>
+
+</body>
+</html>
